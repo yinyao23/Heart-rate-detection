@@ -10,12 +10,12 @@ Deep learning (neural network) based remote photoplethysmography: how to extract
 	instan_hr_groundtruth_hci_tagging.json  
 	mean_hr_groundtruth_hci_tagging.json  
 	peak_timestamps_groundtruth_hci_tagging.json  
-Note: This step can be skipped since the generated 3 files has already been uploaded.  
+**Note: This step can be skipped since the generated 3 files has already been uploaded.**
 
 (3) Run the corrensponding functions in construct_dataset.py for deep learning based methods.  
 	1D-CNN-based pipeline: construct_HCI_dataset_for_ica_method() && construct_HCI_dataset_for_1dcnn_model()  
 	3D-CNN-based pipeline: construct_HCI_dataset_for_3dcnn_model()  
-Note: This step can be skipped for ICA-based pipeline.  
+**Note: This step can be skipped for ICA-based pipeline.**
 
 ### 2. Run the corresponding python file  
 ICA-based pipeline: Run the ica-based-method.py.  
