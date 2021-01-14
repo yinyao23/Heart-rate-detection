@@ -1,5 +1,5 @@
 # Video-Based Heart Rate Measurement Using 3D-Convolutional Attention Networks
-Deep learning (neural network) based remote photoplethysmography: how to extract heart rate signal from video using ica-based tool and deep learning tools.
+ICA based and deep learning (neural network) based remote photoplethysmography: how to extract heart rate signal from video using ica-based tool and deep learning tools.
 
 ## Project Structure
 
@@ -16,7 +16,7 @@ Deep learning (neural network) based remote photoplethysmography: how to extract
 ## How to Run the Implemented Pipelines
 
 ### 1. Generate the pre-processed files for the 3 pipelines.
-(1) Download the MANHOB-HCI dataset under the "./dataset/" directory. For example, the path of one video file would be "./dataset/Sessions/Session-1/2/P1-Rec1-2009.07.09.17.53.46_C1 trigger_C_Section_2".
+(1) Download the MANHOB-HCI dataset under the "./dataset/" directory. For example, the path of one video file would be "./dataset/Sessions/Session-1/2/P1-Rec1-2009.07.09.17.53.46_C1 trigger_C_Section_2".  
 **Note: visit http://mahnob-db.eu/hct-tagging to access the database**
 
 (2) Run the ./dataset/preprocess-for-hci-tagging-db.py to generate the following files:  
