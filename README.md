@@ -6,7 +6,7 @@ Deep learning (neural network) based remote photoplethysmography: how to extract
 ### 1. Generate the pre-processed files for the 3 pipelines.
 (1) Download the MANHOB-HCI dataset under the "./dataset/" directory. For example, the path of one video file would be "./dataset/Sessions/Session-1/2/P1-Rec1-2009.07.09.17.53.46_C1 trigger_C_Section_2".
 
-(2) Run the preprocess-for-hci-tagging-db.py to generate the following files:
+(2) Run the preprocess-for-hci-tagging-db.py to generate the following files: \\
 	instan_hr_groundtruth_hci_tagging.json 
 	mean_hr_groundtruth_hci_tagging.json
 	peak_timestamps_groundtruth_hci_tagging.json
